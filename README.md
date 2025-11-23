@@ -22,3 +22,7 @@ Remaining steps:
 - revise adjacency (or paths) between buildings
     issue that might come up is that paths are not accurate (e.g., tumatagos yung path through a building or road).
 - revise algorithms (if needed) to follow the format used in assignments
+
+modules to download if not installed:
+uvicorn (pip install uvicorn)
+fastapi (pip install fastapi)

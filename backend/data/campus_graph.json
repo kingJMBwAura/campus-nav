@@ -1,47 +1,47 @@
 {
   "buildings": {
-    "ARE": { "name": "Areté", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
+    "ARE": { "name": "Areté", "lat": 0.0, "lng": 0.0 },
     "BEL": { "name": "Bellarmine Hall", "lat": 14.64160, "lng": 121.07943 },
-    "BER": { "name": "Berchmans Hall", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "BEG": { "name": "Blue Eagle Gym", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "MORO": { "name": "Moro Lorenzo Football Field", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "CER_CAN": { "name": "Cervini Canteen", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "CER_RES": { "name": "Cervini Residence Hall", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "GESU": { "name": "Church of the Gesu", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "COV_CRT": { "name": "College Covered Courts", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "DLC": { "name": "Dela Costa Hall", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "ELI": { "name": "Eliazo Residence Hall", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
+    "BER": { "name": "Berchmans Hall", "lat": 0.0, "lng": 0.0 }, 
+    "BEG": { "name": "Blue Eagle Gym", "lat": 0.0, "lng": 0.0 }, 
+    "MORO": { "name": "Moro Lorenzo Football Field", "lat": 0.0, "lng": 0.0 }, 
+    "CER_CAN": { "name": "Cervini Canteen", "lat": 0.0, "lng": 0.0 }, 
+    "CER_RES": { "name": "Cervini Residence Hall", "lat": 0.0, "lng": 0.0 }, 
+    "GESU": { "name": "Church of the Gesu", "lat": 0.0, "lng": 0.0 }, 
+    "COV_CRT": { "name": "College Covered Courts", "lat": 0.0, "lng": 0.0 }, 
+    "DLC": { "name": "Dela Costa Hall", "lat": 0.0, "lng": 0.0 }, 
+    "ELI": { "name": "Eliazo Residence Hall", "lat": 0.0, "lng": 0.0 }, 
     "FAU": { "name": "Faura Hall", "lat": 14.63951, "lng": 121.07701 },
     "GON": { "name": "Gonzaga Hall", "lat": 14.63910, "lng": 121.07804 },
-    "IRWIN": { "name": "Henry Lee Irwin Theater", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "ISO": { "name": "ISO", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
+    "IRWIN": { "name": "Henry Lee Irwin Theater", "lat": 0.0, "lng": 0.0 }, 
+    "ISO": { "name": "ISO", "lat": 0.0, "lng": 0.0 }, 
     "SOM": { "name": "JGSOM Building", "lat": 14.63850, "lng": 121.07647 },
-    "JSEC": { "name": "JSEC", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "KOS": { "name": "Kostka Hall", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "LEO": { "name": "Leong Hall", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "LST": { "name": "Loyola School of Theology", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "MVP": { "name": "MVP Center", "lat": 14.63971, "lng": 121.07746 }, INCOMPLETE
-    "MAC": { "name": "Matteo Ricci Study Hall", "lat": 14.63760, "lng": 121.07700 }, INCOMPLETE
-    "RIZ": { "name": "New Rizal Library", "lat": 14.64011, "lng": 121.07619 }, INCOMPLETE
-    "OCOM": { "name": "Old Communications Building", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "PIPAC": { "name": "PIPAC", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "CTC": { "name": "PLDT-CTC Building", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "RIZ_OLD": { "name": "Rizal Library (Old)", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "FAB": { "name": "Faber Hall / Rizal Mini Theater", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "SCH": { "name": "Schmitt Hall", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
+    "JSEC": { "name": "JSEC", "lat": 0.0, "lng": 0.0 }, 
+    "KOS": { "name": "Kostka Hall", "lat": 0.0, "lng": 0.0 }, 
+    "LEO": { "name": "Leong Hall", "lat": 0.0, "lng": 0.0 }, 
+    "LST": { "name": "Loyola School of Theology", "lat": 0.0, "lng": 0.0 }, 
+    "MVP": { "name": "MVP Center", "lat": 14.63971, "lng": 121.07746 }, 
+    "MAC": { "name": "Matteo Ricci Study Hall", "lat": 14.63760, "lng": 121.07700 }, 
+    "RIZ": { "name": "New Rizal Library", "lat": 14.64011, "lng": 121.07619 }, 
+    "OCOM": { "name": "Old Communications Building", "lat": 0.0, "lng": 0.0 }, 
+    "PIPAC": { "name": "PIPAC", "lat": 0.0, "lng": 0.0 }, 
+    "CTC": { "name": "PLDT-CTC Building", "lat": 0.0, "lng": 0.0 }, 
+    "RIZ_OLD": { "name": "Rizal Library (Old)", "lat": 0.0, "lng": 0.0 }, 
+    "FAB": { "name": "Faber Hall / Rizal Mini Theater", "lat": 0.0, "lng": 0.0 }, 
+    "SCH": { "name": "Schmitt Hall", "lat": 0.0, "lng": 0.0 }, 
     "SEC_A": { "name": "SEC A Building", "lat": 14.63833, "lng": 121.07773 },
     "SEC_B": { "name": "SEC B Building", "lat": 14.63815, "lng": 121.07720 },
     "SEC_C": { "name": "SEC C Building", "lat": 14.63800, "lng": 121.07685 },
-    "SOC": { "name": "Social Sciences Building", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "POOL": { "name": "Swimming Pool", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "UD": { "name": "University Dorm", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
+    "SOC": { "name": "Social Sciences Building", "lat": 0.0, "lng": 0.0 }, 
+    "POOL": { "name": "Swimming Pool", "lat": 0.0, "lng": 0.0 }, 
+    "UD": { "name": "University Dorm", "lat": 0.0, "lng": 0.0 }, 
     "XAV": { "name": "Xavier Hall", "lat": 14.63999, "lng": 121.07851 },
-    "ZEN": { "name": "Zen Garden", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "CPK_CEN": { "name": "Central Carpark", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "CPK_LE": { "name": "Lower East Carpark", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "CPK_N": { "name": "North Carpark", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "CPK_NW": { "name": "Northwest Carpark", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
-    "CPK_UE": { "name": "Upper East Carpark", "lat": 0.0, "lng": 0.0 }, INCOMPLETE
+    "ZEN": { "name": "Zen Garden", "lat": 0.0, "lng": 0.0 }, 
+    "CPK_CEN": { "name": "Central Carpark", "lat": 0.0, "lng": 0.0 }, 
+    "CPK_LE": { "name": "Lower East Carpark", "lat": 0.0, "lng": 0.0 }, 
+    "CPK_N": { "name": "North Carpark", "lat": 0.0, "lng": 0.0 }, 
+    "CPK_NW": { "name": "Northwest Carpark", "lat": 0.0, "lng": 0.0 }, 
+    "CPK_UE": { "name": "Upper East Carpark", "lat": 0.0, "lng": 0.0 }, 
     "SEC_F": { "name": "Science Education Complex Foyer", "lat": 14.63823, "lng": 121.07708 },
     "AGS": { "name": "Ateneo Grade School", "lat": 14.63831, "lng": 121.07655 },
     "G1": { "name": "Gate 1", "lat": 14.63457, "lng": 121.07457},
