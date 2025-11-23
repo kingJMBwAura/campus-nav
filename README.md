@@ -26,5 +26,3 @@ Remaining steps:
 modules to download if not installed:
 uvicorn (pip install uvicorn)
 fastapi (pip install fastapi)
-
-test
