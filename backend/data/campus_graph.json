@@ -55,7 +55,7 @@
     "UD": { "ELI": 130, "CPK_LE": 500 },
 
     "ELI": { "UD": 130, "CER_RES": 80, "BER": 230, "CPK_UE": 400 },
-    "CER_RES": { "ELI": 80, "ISO": 450 },
+    "CER_RES": { "ELI": 80, "ISO": 450, "CPK_N": 290 },
     
     "CPK_N": { "ISO": 290, "BEL": 300, "GESU": 400, "CER_RES": 290, "XAV": 120, "CPK_NW": 200 },
     "BEL": { "CPK_N": 300, "BER": 450, "GESU": 270, "FAB": 280, "ISO": 230 },
@@ -74,23 +74,23 @@
     "GON": { "BER": 66, "KOS": 99, "XAV": 200, "SCH": 130, "ZEN": 20, "SEC_A": 160, "SOC": 230 },
     "XAV": { "GON": 200, "FAU": 230, "GESU": 290, "RIZ": 290, "KOS": 140, "DLC": 200, "CPK_N": 120 },
     
-    "FAU": { "XAV": 230, "DLC": 79, "SCH": 51, "MVP": 47, "SOM": 200, "RIZ": 140 },
+    "FAU": { "XAV": 230, "DLC": 79, "SCH": 51, "MVP": 47, "SOM": 200, "RIZ": 140, "PIPAC": 100 },
     "SCH": { "FAU": 51, "GON": 130, "SEC_A": 160, "BER": 160, "DLC": 100 },
     
-    "SEC_A": { "SCH": 160, "SEC_F": 77, "SEC_B": 92, "SOM": 150, "MVP": 190, "SOC": 300, "OCOM": 400, "COV_CRT": 400, "GON": 160, "FAU": 210 },
+    "SEC_A": { "SCH": 160, "SEC_F": 77, "SEC_B": 92, "SOM": 150, "MVP": 130, "SOC": 300, "OCOM": 400, "COV_CRT": 250, "GON": 160, "FAU": 210 },
     "SEC_B": { "SEC_A": 92, "SEC_F": 5, "SEC_C": 10, "CTC": 72, "MAC": 40 },
     "SEC_C": { "SEC_B": 10, "CTC": 80, "JSEC": 50, "RIZ_OLD": 400, "FAB": 500, "SEC_F": 5, "SOM": 200 },
     "SEC_F": { "SEC_A": 77, "SEC_B": 5, "SEC_C": 5, "SOM": 110 },
     
     "SOM": { "SEC_A": 150, "MVP": 210, "JSEC": 160, "CTC": 40, "SEC_C": 200, "SEC_F": 110, "FAU": 200 },
     "JSEC": { "SOM": 160, "SEC_C": 50, "CTC": 77, "CPK_CEN": 80, "BEG": 400, "G2.5": 400, "MORO": 170, "IRWIN": 350 },
-    "MVP": { "RIZ": 190, "FAU": 47, "KOS": 99, "SOM": 210, "MAC": 350, "SEC_A": 190, "DLC": 97, "BEG": 650 },
+    "MVP": { "RIZ": 190, "FAU": 47, "KOS": 99, "SOM": 210, "MAC": 350, "SEC_A": 130, "DLC": 97, "BEG": 650 },
     
     "CTC": { "SEC_B": 72, "SEC_C": 80, "JSEC": 77, "MAC": 170, "OCOM": 400, "SOM": 40, "BEG": 450, "MORO": 300 },
     "MAC": { "MVP": 350, "CTC": 170, "BEG": 400, "SEC_B": 40, "SEC_A": 160 },
     
     "OCOM": { "SOC": 550, "CTC": 400, "POOL": 120, "COV_CRT": 48, "PIPAC": 450, "SEC_A": 400 },
-    "PIPAC": { "OCOM": 450, "POOL": 550, "CPK_LE": 300 },
+    "PIPAC": { "OCOM": 450, "POOL": 550, "CPK_LE": 300, "FAU": 100 },
     "POOL": { "OCOM": 120, "PIPAC": 550, "LST": 300, "CPK_UE": 350, "BEG": 500, "COV_CRT": 71 },
     "LST": { "POOL": 300, "CPK_UE": 650 },
     
@@ -98,12 +98,12 @@
     "MORO": { "CPK_CEN": 15, "BEG": 210, "G2.5": 100, "JSEC": 170, "CTC": 300, "IRWIN": 350 },
     "BEG": { "MORO": 210, "MAC": 400, "G1": 230, "CPK_LE": 500, "JSEC": 400, "CTC": 450, "CPK_CEN": 290, "IRWIN": 210, "COV_CRT": 400, "POOL": 500 },
     
-    "COV_CRT": { "CPK_CEN": 400, "OCOM": 48, "G2.5": 550, "SEC_A": 400, "CPK_LE": 170, "CPK_UE": 270, "POOL": 71, "BEG": 400, "IRWIN": 400, "CTC": 450 },
+    "COV_CRT": { "CPK_CEN": 400, "OCOM": 48, "G2.5": 550, "SEC_A": 250, "CPK_LE": 170, "CPK_UE": 50, "POOL": 71, "BEG": 400, "IRWIN": 400, "CTC": 450 },
     "G1": { "BEG": 230, "CPK_LE": 700, "G2.5": 350 },
     "G2.5": { "MORO": 100, "CPK_CEN": 450, "COV_CRT": 550, "IRWIN": 400, "JSEC": 400, "G1": 350 },
     
     "IRWIN": { "G2.5": 400, "CPK_UE": 350, "BEG": 210, "COV_CRT": 400, "MORO": 350, "JSEC": 350, "SCH": 600 },
-    "CPK_UE": { "IRWIN": 350, "POOL": 350, "COV_CRT": 270, "LST": 650, "ELI": 400 },
+    "CPK_UE": { "IRWIN": 350, "POOL": 350, "COV_CRT": 50, "LST": 650, "ELI": 400 },
     "CPK_LE": { "BEG": 500, "PIPAC": 300, "G1": 700, "UD": 500, "COV_CRT": 170 }
   }
 }

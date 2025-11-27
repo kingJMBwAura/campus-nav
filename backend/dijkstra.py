@@ -1,8 +1,4 @@
 def find_shortest_path(graph_adjacency, start_id, end_id):
-    """
-    Implements Dijkstra's Algorithm.
-    Returns: (list of node_ids, total_distance)
-    """
     distances = {node: float('inf') for node in graph_adjacency}
     distances[start_id] = 0
     predecessors = {node: None for node in graph_adjacency}

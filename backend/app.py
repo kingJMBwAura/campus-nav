@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from urllib.parse import unquote
 
-# Import our custom modules
+# custom modules
 from graph import CampusGraph
 from dijkstra import find_shortest_path
 
@@ -28,7 +28,6 @@ class RouteRequest(BaseModel):
     end_id: str
 
 # --- API Endpoints ---
-
 @app.get("/")
 def home():
     return {"message": "Ateneo Campus Nav API is running"}
@@ -43,7 +42,7 @@ def search_building(name: str):
     """
     Demonstrates Binary Search: Finds a building by name.
     """
-    decoded_name = unquote(name) # Handle URL encoding (e.g. "Xavier%20Hall")
+    decoded_name = unquote(name)
     result = campus.get_building_by_name(decoded_name)
     
     if result:
@@ -52,15 +51,11 @@ def search_building(name: str):
 
 @app.post("/calculate-route")
 def calculate_route(request: RouteRequest):
-    """Computes shortest path using Dijkstra."""
-    
-    # Run Algorithm
     path_ids, distance = find_shortest_path(campus.adjacency, request.start_id, request.end_id)
     
     if distance == float('inf'):
         return {"error": "No path found"}
 
-    # Format response with full building details for the map
     path_details = []
     for pid in path_ids:
         b = campus.buildings.get(pid)
@@ -73,7 +68,7 @@ def calculate_route(request: RouteRequest):
 
     return {
         "distance_meters": distance,
-        "estimated_time_minutes": round(distance / 80, 1), # 80m/min avg walk speed
+        "estimated_time_minutes": round(distance / 80, 1),
         "path": path_details
     }
 
