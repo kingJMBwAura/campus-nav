@@ -43,7 +43,6 @@
     "CPK_NW": { "name": "Northwest Carpark", "lat":14.641596810909865, "lng": 121.07684185795166 }, 
     "CPK_UE": { "name": "Upper East Carpark", "lat": 14.6372587954808, "lng": 121.07795789369564 }, 
     "SEC_F": { "name": "Science Education Complex Foyer", "lat": 14.63823, "lng": 121.07708 },
-    "AGS": { "name": "Ateneo Grade School", "lat": 14.63831, "lng": 121.07655 },
     "G1": { "name": "Gate 1", "lat": 14.63457, "lng": 121.07457},
     "G2.5": { "name": "Gate 2.5", "lat": 14.63685, "lng": 121.07461},
     "G3.5": { "name": "Gate 3.5", "lat": 14.64117, "lng": 121.07486}
@@ -64,7 +63,7 @@
     "GON": { "BER": 70, "SEC_A": 160, "SCH": 130, "ZEN": 20 },
     "IRWIN": { "BEG": 210, "COV_CRT": 400, "MORO": 350, "G2.5": 500, "JSEC": 350 }, 
     "ISO": { "ARE": 350, "CPK_N": 290, "XAV": 300, "GESU": 280, "G3.5": 550, "BEL": 230 }, 
-    "SOM": { "CTC": 70, "MVP": 270, "FAURA": 200},
+    "SOM": { "CTC": 70, "MVP": 270, "FAU": 200},
     "JSEC": { "CTC": 70, "BEG": 400, "G2.5": 400, "CPK_CEN": 100}, 
     "KOS": { "DLC": 180, "MVP": 140, "ZEN": 70, "XAV": 250, "GON":220 }, 
     "LEO": { "SOC":70, "ARE": 240, "RIZ": 90, "DLC": 90}, 
@@ -78,7 +77,7 @@
     "PIPAC": { "BEG": 550, "IRWIN": 500, "OCOM": 450, "UD": 550, "CPK_LE": 300 }, 
     "CTC": { "MAC": 170, "COV_CRT": 450, "OCOM": 400, "ISO": 600 }, 
     "RIZ_OLD": { "FAU": 140, "RIZ": 190, "FAB": 250, "SEC_C": 400 }, 
-    "FAB": { "RIZ": 350, "RIZ_OLD": 250, "ZEN": 150, "SEC_C": 450, "AGS": 900 }, 
+    "FAB": { "RIZ": 350, "RIZ_OLD": 250, "ZEN": 150, "SEC_C": 450 },
     "SCH": { "BER": 160, "LEO": 220, "IRWIN": 600, "DLC": 100 }, 
     "SEC_A": { "MVP": 190, "SOC": 300, "OCOM": 400, "SEC_B": 75, "MAC": 150, "SEC_F": 70 },
     "SEC_B": { "SEC_A": 100, "SEC_C": 25, "MAC": 30, "SEC_F": 20 },
@@ -93,10 +92,9 @@
     "CPK_N": { "BEL": 300, "CER_CAN": 350, "G3.5": 400 }, 
     "CPK_NW": { "GESU": 500, "ARE": 120, "ZEN": 300, "G3.5": 320 }, 
     "CPK_UE": { "LST": 650, "ELI": 400, "IRWIN": 350, "POOL": 350 }, 
-    "SEC_F": { "SEC_A": 80, "SEC_B": 20, "SEC_C": 20, "SOM": 110, "AGS": 650 },
-    "AGS": { "SOM": 550, "JSEC": 550, "FAB": 1000, "SEC_F": 700, "G2.5": 550 },
+    "SEC_F": { "SEC_A": 80, "SEC_B": 20, "SEC_C": 20, "SOM": 110},
     "G1": { "CPK_LE": 700, "G2.5": 350 },
-    "G2.5": { "JSEC": 450, "AGS": 700, "COV_CRT": 750, "CPK_CEN": 500, "G1": 350 },
+    "G2.5": { "JSEC": 450, "COV_CRT": 750, "CPK_CEN": 500, "G1": 350 },
     "G3.5": { "CPK_N": 400, "CPK_NW": 350, "BEL": 700 }
   }
 }
